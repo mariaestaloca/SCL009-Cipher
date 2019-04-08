@@ -1,15 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en">
+  
+   <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css" />
+   
+<div class="contenedor">
+    <h1 align="center" id="titulo"> "Torpedos Master"</h1>
+  <div id="empezar">
+   <h2 align="center" class="parrafo"> Alguna vez has temido que tus profesores te descubran haciendo trampa en una prueba???Esta es la solución para que ellos no descubran lo que escribes!!! </h2>
+   <p align="center" id="vamos">Vamos! Crea tu codigo!!! </p>
+   <button id="start" >Start!!</button>
+    
+ </div>
+ 
+ <div class="options" id="options"> 
+       <h2 align="center" class ="welcomeText" >Ahora puedes crear tu código o descifrar el texto recibido.</h2>
+       <p align="center" id="instructions"><strong>Recuerda:</strong> que para crear o resolver tu código, debes tener el "Numero mágico", que solo tú y tu compañero deben conocer.</p>
+       <button id="crear">Crea tu torpedo</button>
+      
+       <button id="descrear">Descifra tu torpedo</button>
+      
+ </div>
+ 
+ <div id="cifrarScreen"> 
+   <h3 align="center" class="cifrar2" >Ingresa tu torpedo original: </h3>
+     <input id="cifrar" type="text" autocomplete="off" align="center" placeholder="Tu torpedo aquí" required>
+   <p align="center" class="cifra2" > Número Mágico: </p>
+   <input id="offset" type="number" autocomplete="off" align="center" placeholder="Nº" required>
+   <button id="result1" >Torpedo Codificado</button>
+   
+   
+ </div>
+ 
+ 
+   <div id="cifrarScreen2">
+   <h4 align="center" class="cifrar2" >Tu torpedo cifrado</h4>
+     <textarea align="center" id="output"  rows="10" cols="50"></textarea>
+     <button id="volver1" >Volver a Inicio</button>
+      
+   
+ </div>
+  
+  
+
+ <div id="descifrarScreen">
+   <h3 align="center" class="descifrar2" >Descubre tu torpedo secreto</h3>
+     <input id="descifrar" type="text" autocomplete="off" align="center" placeholder="Tu mensaje secreto aqui" required>
+   <p align="center" class="descifrar2" > Número Magico: </p>
+  <input id="offset2" type="number" autocomplete="off" align="center" placeholder="Nº" required>
+   <button id="result2" >Descubre tu mensaje</button>
+   
+   
+ </div>
+
+  <div id="descifrarScreen2">
+   <h4 align="center" class="descifrar2" >Tu torpedo descifrado</h4>
+     <textarea align="center" id="output2"  rows="10" cols="50"></textarea>
+    <button id="volver2" >Volver a Inicio</button>
+ 
+      
+   
+ </div>
+</div>
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+
 </html>
