@@ -29,12 +29,12 @@ Para esto se decidió hacer un diseño amigable, que mostrara solo lo que el usu
 
 * Creación de maqueta:     
   Para esto se creo primero la siguiente maqueta:
-![image4](img/image4.jpeg)  
+![image4](img/image4.jpg)  
 
   Luego se decidió hacer una mas compleja para hacer un mejor diseño:   
-![image3](img/image3.jpeg)  
+![image3](img/image3.jpg)  
    Finalmente se decidio el siguiente flujo:
-![image2](img/image2.jpeg)  
+![image2](img/image2.jpg)  
 
 En resumen, despues de las pruebas se llegó a lo siguiente:
 
@@ -75,7 +75,7 @@ En los campos de texto se pueden usar los siguente para ser cifrado: minusculas,
 Se realizó una maqueta con 6 laminas, en las cuales los usuarios podían cambiar de pagina y elegir entre las opciones presentadas.
 Tambíén contaba con variables, para que el usuario eligiera entre diferentes mensajes,  para poder ver los resultados que mostraría "Torpedo Master".
 Maqueta y variables (frases y números mágicos).
-![image1](img/image1.jpeg)  
+![image1](img/image1.jpg)  
 
 
 A continuación podemos ver la experiencia de un usuario al usar la maqueta:
