@@ -56,12 +56,16 @@ result2.addEventListener('click', () =>{
 
 
 volver1.addEventListener('click', () =>{
+  document.getElementById("cifrar").value = "";
+  document.getElementById("offset").value = "";
   cifrarScreen2.style.display='none';
   options.style.display='block';
   
 })
 
 volver2.addEventListener('click', () =>{
+  document.getElementById("descifrar").value = "";
+  document.getElementById("offset2").value = "";
   descifrarScreen2.style.display='none';
   options.style.display='block';
   

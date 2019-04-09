@@ -13,6 +13,17 @@ window.cipher = {
       clave = String.fromCharCode((code - 97 + parseInt (offset)) % 26 + 97);
 }
 
+else if(code >= 48 &&  code<= 57){
+  clave = String.fromCharCode((code - 48 + parseInt (offset)) % 10 + 48);
+}
+
+else if(code ==209){
+  clave = String.fromCharCode(code= 210);
+}
+else if(code ==241){
+  clave = String.fromCharCode(code= 243);
+}
+
 else {
   clave = input.charAt(i);
 }
@@ -37,6 +48,19 @@ decode:(input, offset2) => {
       else if(code >= 97 &&  code<= 122){
         claveDes = String.fromCharCode(((code - 97 - parseInt (offset2)+ 52) % 26) + 97);
 }
+
+else if(code >= 48 &&  code<= 57){
+  claveDes = String.fromCharCode(((code - 48 - parseInt (offset2)+ 52) % 10) + 48);
+}
+
+else if(code ==210){
+  claveDes = String.fromCharCode(code= 209);
+}
+else if(code ==243){
+  claveDes = String.fromCharCode(code= 241);
+}
+
+
 
 else {
     claveDes= input.charAt(i);
