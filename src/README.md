@@ -29,16 +29,16 @@ Para esto se decidió hacer un diseño amigable, que mostrara solo lo que el usu
 
 * Creación de maqueta:     
   Para esto se creo primero la siguiente maqueta:
-[prototipo1] (img/image4.jpg)  
+[prototipo1](img/image4.jpg)  
 
   Luego se decidió hacer una mas compleja para hacer un mejor diseño:   
-[prototipo2] (img/image3.jpg)  
+[prototipo2](img/image3.jpg)  
    Finalmente se decidio el siguiente flujo:
-[prototipo3] (img/image2.jpg)  
+[prototipo3] img/image2.jpg)  
 
 En resumen, despues de las pruebas se llegó a lo siguiente:
 
-[final] (img/TORPEDOMASTER.jpg)  
+[final](img/TORPEDOMASTER.jpg)  
 
 
 
@@ -75,7 +75,7 @@ En los campos de texto se pueden usar los siguente para ser cifrado: minusculas,
 Se realizó una maqueta con 6 laminas, en las cuales los usuarios podían cambiar de pagina y elegir entre las opciones presentadas.
 Tambíén contaba con variables, para que el usuario eligiera entre diferentes mensajes,  para poder ver los resultados que mostraría "Torpedo Master".
 Maqueta y variables (frases y números mágicos).
-[maqueta] (img/image1.jpg)  
+[maqueta](img/image1.jpg)  
 
 
 A continuación podemos ver la experiencia de un usuario al usar la maqueta:
@@ -94,21 +94,3 @@ Luego de esto se también se realizo un testeo de la página que ya tenia los ca
 
 * [experiencia usuario maqueta](https://youtu.be/opVUEUwnMto)
 
-*emphasis*
-
-**strong**
-
-* list
-
->block quote
-
-    code (4 spaces indent)
-[links](https://wikipedia.org)
-
-----
-## changelog
-* 17-Feb-2013 re-design
-
-----
-## thanks
-* [markdown-js](https://github.com/evilstreak/markdown-js)
