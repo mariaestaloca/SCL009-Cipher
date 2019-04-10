@@ -29,12 +29,12 @@ Para esto se decidió hacer un diseño amigable, que mostrara solo lo que el usu
 
 * Creación de maqueta:     
   Para esto se creo primero la siguiente maqueta:
-![IMG_3637](img/IMG_3637.jpg)  
+![IMG_36372](img/IMG_36372.jpg)  
 
   Luego se decidió hacer una mas compleja para hacer un mejor diseño:   
 ![IMG_3638](img/IMG_3638.jpg)  
    Finalmente se decidio el siguiente flujo:
-![IMG_3639](img/IMG_3639.jpg)  
+![IMG_36392](img/IMG_36392.jpg)  
 
 En resumen, despues de las pruebas se llegó a lo siguiente:
 
